@@ -106,7 +106,7 @@ while True:
             history_of_calculations += [(first_number, operand, second_number, "=", result)]
             print("Result is " + (("{:." + str(decimal_places) + "f}").format(float(result)) + "\n"))
         except ZeroDivisionError as e:
-            print(e + "\n")
+            print(str(e) + "\n")
     elif input_value == "7":
         try:
             number = float(input("Enter number: "))
