@@ -10,3 +10,9 @@ F
 lab_works/3/output.txt,6/b/6bae9b1811ac7db90c118cf5786316d0b5213fb2
 R
 "lab_works/3/ascii_art_generator.py,f/f/ffef09b8db83e70da921387190935497dcdf1b81
+H
+lab_works/4/alphabet.txt,b/a/ba2626b1ddad5ccae873849430c3b6d2330bc12e
+F
+lab_works/4/Reading.py,6/8/686f9c2de5f0185615399837e7a1a7cd90b9b7ab
+J
+lab_works/4/AsciiReader.py,b/a/ba6725cd00f9ebf8e2704babe6fcaf5a5650a10b
