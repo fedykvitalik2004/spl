@@ -77,7 +77,6 @@ def main():
                 try:
                     figure = Cube(length, character, color_position)
                     is_figure_available = True
-                    print("Hello")
                 except ValueError as e:
                     print(e)
                     is_figure_available = False
@@ -90,7 +89,7 @@ def main():
                     print("There is no figure available!")
             case "3":
                 if is_figure_available is True:
-                    representation_3d = figure.get_3d_representation()
+                    representation_3d = figure.get_3d_representation(scale=scale)
                     print(representation_3d)
                     is_3d_representation_available = True
                 else:
