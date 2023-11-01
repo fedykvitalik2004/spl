@@ -19,7 +19,6 @@ def main():
         width = int(input("Enter width of text you would like to display: "))
         file_path = str(input("Enter path to file containing alphabet: "))
         txt_processor = TxtProcessor(file_path)
-        print("Hello")
         text = txt_processor.retrieve(initial_text, color_position, width)
         print(text)
         write_into_file("output.txt", text)

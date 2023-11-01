@@ -65,11 +65,11 @@ decimal_places = 2
 
 while True:
     print("Options: ")
-    print("1. Add numbers")
-    print("2. Subtract numbers")
-    print("3. Multiple numbers")
-    print("4. Divide numbers")
-    print("5. Raise to a power")
+    print("lab1. Add numbers")
+    print("lab2. Subtract numbers")
+    print("lab3. Multiple numbers")
+    print("lab4. Divide numbers")
+    print("lab5. Raise to a power")
     print("6. Divide by modulo")
     print("7. Compute the square root")
     print("8. View history")
@@ -78,25 +78,25 @@ while True:
 
     input_value = input("Your option is ")
 
-    if re.match("^[1-6]$", input_value):
+    if re.match("^[lab1-6]$", input_value):
         first_number = float(input("Enter first number: "))
         second_number = float(input("Enter second number: "))
 
         try:
             match input_value:
-                case "1":
+                case "lab1":
                     operand = "+"
                     result = add(first_number, second_number)
-                case "2":
+                case "lab2":
                     operand = "-"
                     result = subtract(first_number, second_number)
-                case "3":
+                case "lab3":
                     operand = "*"
                     result = multiple(first_number, second_number)
-                case "4":
+                case "lab4":
                     operand = "/"
                     result = divide(first_number, second_number)
-                case "5":
+                case "lab5":
                     operand = "**"
                     result = raise_to_a_power(first_number, second_number)
                 case "6":
@@ -122,17 +122,17 @@ while True:
     elif input_value == "9":
         while True:
             print("\tSettings options:")
-            print("\t1. View settings")
-            print("\t2. Change decimal places")
-            print("\t3. Clean all records")
+            print("\tlab1. View settings")
+            print("\tlab2. Change decimal places")
+            print("\tlab3. Clean all records")
             print("\t0. Exit from the settings mode")
 
             inner_input_value = str(input("\tYour option is "))
 
-            if inner_input_value == "1":
+            if inner_input_value == "lab1":
                 view_settings()
                 print()
-            elif inner_input_value == "2":
+            elif inner_input_value == "lab2":
                 new_value = int(input("\tEnter a new value for decimal places: "))
 
                 try:
@@ -140,7 +140,7 @@ while True:
                     print()
                 except ArithmeticError as e:
                     print("\t" + str(e) + "\n")
-            elif inner_input_value == "3":
+            elif inner_input_value == "lab3":
                 history_of_calculations.clear()
                 print()
             elif inner_input_value == "0":

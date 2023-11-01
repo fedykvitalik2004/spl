@@ -5,14 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c63414-4663-4247-a847-4de92a73d202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab_works/4/fori.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_works/4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_works/4/processors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/СМП_4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab4/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/Figures3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab5/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utility/FileProcessor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/686f9c2de5f0185615399837e7a1a7cd90b9b7ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bae9b1811ac7db90c118cf5786316d0b5213fb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/858e2f52ab2d4af3e0eb3d188c4db51a3890d6de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c95ee9eb66d54aa9ae111752def4d97166bfbde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba2626b1ddad5ccae873849430c3b6d2330bc12e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba6725cd00f9ebf8e2704babe6fcaf5a5650a10b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffef09b8db83e70da921387190935497dcdf1b81" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/686f9c2de5f0185615399837e7a1a7cd90b9b7ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6bae9b1811ac7db90c118cf5786316d0b5213fb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/5/858e2f52ab2d4af3e0eb3d188c4db51a3890d6de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c95ee9eb66d54aa9ae111752def4d97166bfbde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/ba2626b1ddad5ccae873849430c3b6d2330bc12e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/a/ba6725cd00f9ebf8e2704babe6fcaf5a5650a10b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ffef09b8db83e70da921387190935497dcdf1b81" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_works/3/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab_works/3/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/1/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/2/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/3/ascii_art_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/ascii_art_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/3/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/4/fori.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/fori.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/4/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_works/4/processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab4/processors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,34 +63,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/fedyk_vitalii/PycharmProjects/pythonProject/lab_works/4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fedyk_vitalii/PycharmProjects/pythonProject/reports&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reports" />
       <recent name="$PROJECT_DIR$/lab_works/4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/reports" />
       <recent name="$PROJECT_DIR$/lab_works/4" />
       <recent name="$PROJECT_DIR$/lab_works/4/files" />
-      <recent name="$PROJECT_DIR$/reports" />
       <recent name="$PROJECT_DIR$/lab_works/1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="AsciiReader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.runner (1)">
+    <configuration name="Figures3D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,34 +99,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_works/4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_works/5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_works/4/AsciiReader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="calculator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_works/2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_works/2/calculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_works/5/Figures3D.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +143,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_works/4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/lab4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_works/4/m.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lab4/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="processors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="runner (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,12 +187,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_works/4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/lab5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_works/4/processors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/lab5/runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_works/5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_works/5/runner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runner (1)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.runner" />
+        <item itemvalue="Python.Figures3D" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.processors" />
-        <item itemvalue="Python.m" />
-        <item itemvalue="Python.AsciiReader" />
-        <item itemvalue="Python.calculator (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +273,23 @@
       <workItem from="1696588371088" duration="29189000" />
       <workItem from="1696676660284" duration="2381000" />
       <workItem from="1696683561568" duration="1173000" />
-      <workItem from="1696688594293" duration="28978000" />
+      <workItem from="1696688594293" duration="29069000" />
+      <workItem from="1694675833751" duration="2261000" />
+      <workItem from="1697361329801" duration="1337000" />
+      <workItem from="1697470978325" duration="3904000" />
+      <workItem from="1697491051010" duration="2559000" />
+      <workItem from="1697701621343" duration="69000" />
+      <workItem from="1697703630743" duration="71000" />
+      <workItem from="1697804554004" duration="29938000" />
+      <workItem from="1697839988004" duration="37213000" />
+      <workItem from="1698236956603" duration="3601000" />
+      <workItem from="1698250765531" duration="16756000" />
+      <workItem from="1698299076254" duration="140000" />
+      <workItem from="1698304695711" duration="1358000" />
+      <workItem from="1698306103918" duration="4007000" />
+      <workItem from="1698670772089" duration="148000" />
+      <workItem from="1698829812964" duration="655000" />
+      <workItem from="1698830660383" duration="2742000" />
     </task>
     <servers />
   </component>
@@ -268,17 +308,24 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$AsciiReader.coverage" NAME="AsciiReader Coverage Results" MODIFIED="1696689507399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
     <SUITE FILE_PATH="coverage/pythonProject$arithmetic_operations.coverage" NAME="arithmetic_operations Coverage Results" MODIFIED="1695393506254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/2" />
-    <SUITE FILE_PATH="coverage/pythonProject$calculator__1_.coverage" NAME="calculator (1) Coverage Results" MODIFIED="1696490268109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/2" />
+    <SUITE FILE_PATH="coverage/pythonProject$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1698832164687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/lab4" />
     <SUITE FILE_PATH="coverage/pythonProject$sec.coverage" NAME="sec Coverage Results" MODIFIED="1695931606840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/3" />
     <SUITE FILE_PATH="coverage/pythonProject$ascii_generator.coverage" NAME="ascii_generator Coverage Results" MODIFIED="1696602840348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
     <SUITE FILE_PATH="coverage/pythonProject$man.coverage" NAME="man Coverage Results" MODIFIED="1696322512374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/3" />
+    <SUITE FILE_PATH="coverage/pythonProject$runner__1_.coverage" NAME="runner (1) Coverage Results" MODIFIED="1698832622615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/lab5" />
+    <SUITE FILE_PATH="coverage/pythonProject$figures.coverage" NAME="figures Coverage Results" MODIFIED="1697493313254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/5" />
+    <SUITE FILE_PATH="coverage/pythonProject$m.coverage" NAME="m Coverage Results" MODIFIED="1696692106086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
+    <SUITE FILE_PATH="coverage/pythonProject$e.coverage" NAME="e Coverage Results" MODIFIED="1696006456287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/3" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1697701664762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
+    <SUITE FILE_PATH="coverage/pythonProject$Figures2D.coverage" NAME="Figures3D Coverage Results" MODIFIED="1697839883041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/5" />
+    <SUITE FILE_PATH="coverage/pythonProject$AsciiReader.coverage" NAME="AsciiReader Coverage Results" MODIFIED="1696689507399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
+    <SUITE FILE_PATH="coverage/pythonProject$calculator__1_.coverage" NAME="calculator (1) Coverage Results" MODIFIED="1696490268109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/2" />
+    <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1697492369223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/5" />
+    <SUITE FILE_PATH="coverage/pythonProject$Figures3D.coverage" NAME="Figures3D Coverage Results" MODIFIED="1698251554231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/5" />
     <SUITE FILE_PATH="coverage/pythonProject$Reading.coverage" NAME="processors Coverage Results" MODIFIED="1696748974693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
     <SUITE FILE_PATH="coverage/pythonProject$ascii_art_generator.coverage" NAME="ascii_art_generator Coverage Results" MODIFIED="1696621626221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/3" />
-    <SUITE FILE_PATH="coverage/pythonProject$m.coverage" NAME="m Coverage Results" MODIFIED="1696692106086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
+    <SUITE FILE_PATH="coverage/pythonProject$runner.coverage" NAME="runner Coverage Results" MODIFIED="1698265345896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/5" />
     <SUITE FILE_PATH="coverage/pythonProject$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1695927777245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$e.coverage" NAME="e Coverage Results" MODIFIED="1696006456287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/3" />
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1696752560778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab_works/4" />
   </component>
 </project>
