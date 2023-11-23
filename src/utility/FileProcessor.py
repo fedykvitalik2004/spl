@@ -1,4 +1,8 @@
 import json
+import pandas
+
+pandas.set_option('display.max_rows', None)
+pandas.set_option('display.max_columns', None)
 
 
 def write_into_file(file_path: str, text: str) -> None:
@@ -60,3 +64,17 @@ def write_into_json(file_path: str, jsons: list) -> None:
 
     with open(file_path, "w") as file:
         file.write(jsons_text_representation)
+
+
+class CsvProcessor:
+    @staticmethod
+    def read(file_path: str) -> pandas.DataFrame:
+        """
+        Read a CSV file into a pandas DataFrame. May raise FileNotFoundError, PermissionError, or OSError.
+        :param file_path:
+        :return:
+        """
+        return pandas.read_csv(file_path)
+
+
+

@@ -1,33 +1,39 @@
-# Лабораторна робота № 8.
-# Візуалізація та обробка даних за допомогою спеціалізованих бібліотек Python
-# Мета: Розробка додатка для візуалізації CSV-наборів даних за допомогою Matplotlib та базових принципів ООП (наслідування, інкапсуляція, поліморфізм)
-# План роботи
-#
-#  Завдання 1: Вибір CSV-набору даних
-# Оберіть CSV-набір даних, який ви хочете візуалізувати. Переконайтеся, що він містить відповідні дані для створення змістовних візуалізацій.
-#
-#  Завдання 2: Завантаження даних з CSV
-# Напишіть код для завантаження даних з CSV-файлу в ваш додаток Python. Використовуйте бібліотеки, такі як Pandas, для спрощення обробки даних.
-#
-#  Завдання 3: Дослідження даних
-# Визначте екстремальні значення по стовцям
-#
-# Завдання 4: Вибір типів візуалізацій
-# Визначте, які типи візуалізацій підходять для представлення вибраних наборів даних. Зазвичай це може бути лінійні графіки, стовпчикові діаграми, діаграми розсіювання, гістограми та секторні діаграми.
-#
-#  Завдання 5: Підготовка даних
-# Попередньо обробіть набір даних за необхідністю для візуалізації. Це може включати виправлення даних, фільтрацію, агрегацію або трансформацію.
-#
-# Завдання 6: Базова візуалізація
-# Створіть базову візуалізацію набору даних, щоб переконатися, що ви можете відображати дані правильно за допомогою Matplotlib. Розпочніть з простої діаграми для візуалізації однієї змінної.
-#
-#  Завдання 7: Розширені візуалізації
-# Реалізуйте більш складні візуалізації, виходячи з характеристик набору. Поекспериментуйте з різними функціями Matplotlib та налаштуваннями.
-#
-#  Завдання 8: Декілька піддіаграм
-# Навчіться створювати кілька піддіаграм в межах одного малюнка для відображення декількох візуалізацій поруч для кращого порівняння.
-#
-#  Завдання 9: Експорт і обмін
-# Реалізуйте функціональність для експорту візуалізацій як зображень (наприклад, PNG, SVG) або інтерактивних веб-додатків (наприклад, HTML)
-#
-# Виконавши ці завдання, ви створите багатофункціональний додаток для візуалізації CSV-наборів даних за допомогою Matplotlib. Цей проект покращить ваші навички візуалізації даних, дозволяючи досліджувати результати з різноманітними наборами даних
+from src.lab8.service.user_service import UserService, UserServiceImpl
+
+
+def main():
+    data_file = "./files/users.csv"
+    service = UserServiceImpl(data_file)
+
+    while (True):
+        print(f"1. Display difference in years histogram\n"
+              f"2. Display sex pie chart\n"
+              f"3. Display job bar chart\n"
+              f"4. Display complicated diagram\n"
+              f"0. Exit\n")
+
+        match (input("Enter your choice: ")):
+            case "1":
+                has_to_be_downloaded = True if input(
+                    "Do you want to download the histogram? Enter 'y' or anything else not to download") == "y" else False
+                service.create_difference_in_years_histogram(has_to_be_downloaded)
+            case "2":
+                has_to_be_downloaded = True if input(
+                    "Do you want to download the pie chart? Enter 'y' or anything else not to download") == "y" else False
+                service.create_sex_pie_chart(has_to_be_downloaded)
+            case "3":
+                has_to_be_downloaded = True if input(
+                    "Do you want to download the bar chart? Enter 'y' or anything else not to download") == "y" else False
+                service.create_job_bar_chart(has_to_be_downloaded)
+            case "4":
+                has_to_be_downloaded = True if input(
+                    "Do you want to download the complicated chart? Enter 'y' or anything else not to download") == "y" else False
+                service.create_complicated_diagram(has_to_be_downloaded)
+            case "0":
+                exit(0)
+            case _:
+                print("Invalid choice. Enter again!")
+
+
+if __name__ == '__main__':
+    main()

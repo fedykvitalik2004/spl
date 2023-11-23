@@ -44,3 +44,23 @@ B
 src/lab8/runner.py,d/4/d4beed7ca665792576364790527be874f9589441
 A
 src/lab8/data.csv,c/f/cf390f6d94065c41c67a696550c774c3ea04fca6
+N
+src/lab8/files/people-data.csv,e/4/e4d66769b7f29e6bd2515930fe6ad9caa85ffff1
+H
+src/utility/CsvProcessor,5/6/56b0265d6e940e8c3c081c2fc7ca9e7d64c25ec9
+K
+src/utility/CsvProcessor.py,3/f/3f6173b77f0ebb1d51f9740ef0113eb9068675cb
+>
+src/lab8/ь.py,0/0/00b482f572c11088d36bfb503731a27d5f1ee9c2
+S
+#src/lab8/service/data_processing.py,7/b/7babf6d942a3f6b08729ab2ac4f6ef7929bb74a2
+G
+src/lab8/entity/user.py,0/9/0952483db193fee2ef276fd60cfd10758341a699
+H
+src/lab8/files/users.csv,9/f/9f4d634a64a24b48c28708ad536efa9b6851748c
+N
+src/lab8/mapper/user_mapper.py,2/3/2360bf262f9d7c047eef6ad9445754d70c455aea
+P
+ src/lab8/service/user_service.py,b/1/b1b76510ee60b3bd381f421c0f2cdba0594af4ac
+=
+src/lab8/m.py,2/2/226afc399cb9fd0bc58358075065268472f387ca
