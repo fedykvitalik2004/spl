@@ -74,7 +74,7 @@ class Figure3D(ABC):
         """
         if not colors.__contains__(color_position):
             raise ValueError("Color position must be in range of available colors")
-        elif self.is_appropriate_character(character) is False:
+        if self.is_appropriate_character(character) is False:
             raise ValueError("It supposed to be only one character instead")
         self._character = character
         self._color_position = color_position
@@ -87,7 +87,7 @@ class Figure3D(ABC):
         Returns:
         - list: A list containing the 2D representation of the figure.
         """
-        pass
+        pass  # pylint: disable=unnecessary-pass
 
     @abstractmethod
     def get_3d_representation(self) -> str:
@@ -97,7 +97,7 @@ class Figure3D(ABC):
        Returns:
        - str: The 3D representation of the figure.
        """
-        pass
+        pass  # pylint: disable=unnecessary-pass
 
     @staticmethod
     def is_appropriate_character(character: str) -> bool:
@@ -158,8 +158,7 @@ class Cube(Figure3D):
                     result += "   "
             result += "\n"
 
-        return [(Fore.__getattribute__(
-            colors[self._color_position]) + "\n" + result) for _ in range(6)]
+        return [getattr(Fore, colors[self._color_position]) + "\n" + result for _ in range(6)]
 
     def get_3d_representation(self, scale: float = 1.0) -> str:
         """
@@ -210,4 +209,4 @@ class Cube(Figure3D):
 
             result += "\n"
 
-        return Fore.__getattribute__(colors[self._color_position]) + "\n" + result
+        return getattr(Fore, colors[self._color_position]) + "\n" + result

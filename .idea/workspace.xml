@@ -5,118 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c63414-4663-4247-a847-4de92a73d202" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/lab4/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/lab9/users.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/lab2/calculator_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/lab3/ascii_art_generator_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/lab4/data_processors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/lab7/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/lab8/diagrams_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/menu/lab2/calculator_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/menu/lab3/ascii_art_generator_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/menu/lab4/own_ascii_art_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/menu/lab5/figures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/menu/lab7/user_menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/menu/lab8/diagrams_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00b482f572c11088d36bfb503731a27d5f1ee9c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05a054fcf5afda3b2f4f4f8967520b6db560d0db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0952483db193fee2ef276fd60cfd10758341a699" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bc7574e5ba1f976266f79b8d4fd8129cf783147" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/226afc399cb9fd0bc58358075065268472f387ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/2360bf262f9d7c047eef6ad9445754d70c455aea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/365ced7077601e099c2252a68687931d85a7f9b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f6173b77f0ebb1d51f9740ef0113eb9068675cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45156ed5c5f68c947d9cbb11d4ca35dbe762df23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/484efc25285ccdb59c7781171efde774f1767f96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56b0265d6e940e8c3c081c2fc7ca9e7d64c25ec9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58484d401bf6cdd51c3aaf84c95546c98c87f1b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69575371dea5f77a3e99344b7a23c331570bb2c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69e6cf3749b4f5163143a8d9f1f2c98633b58015" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/790c7e57202ef99967fb739129015b52242bd539" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7babf6d942a3f6b08729ab2ac4f6ef7929bb74a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8786ababed89070cfc22d8fa12b8439ad51fb06f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92020daa251e500b1f7ec74d140413560839b2a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f4d634a64a24b48c28708ad536efa9b6851748c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1b76510ee60b3bd381f421c0f2cdba0594af4ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b898efd85f7a80d48a8675bf7dbe54d4fc8ce2e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd7c06d64a670b957c105f6cd4f77904ea233c02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0bdfb862a01504233ed033d1876368e35b46725" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1d5f20d551da2d24840ef176b9666d448cb3eed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c824573fec36b2fa82f26d1c30d74a8eb83f8b2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf390f6d94065c41c67a696550c774c3ea04fca6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4beed7ca665792576364790527be874f9589441" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4d66769b7f29e6bd2515930fe6ad9caa85ffff1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eae7867906a998df96d2b5a0bc13f4809553b922" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f2360a9eaac8afd62ebbd3ad4fc29cba63778838" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3aa5db0db808e4d5451306d039ad9e368eb60a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/00b482f572c11088d36bfb503731a27d5f1ee9c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05a054fcf5afda3b2f4f4f8967520b6db560d0db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/9/0952483db193fee2ef276fd60cfd10758341a699" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1bc7574e5ba1f976266f79b8d4fd8129cf783147" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/2/226afc399cb9fd0bc58358075065268472f387ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/2360bf262f9d7c047eef6ad9445754d70c455aea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/6/365ced7077601e099c2252a68687931d85a7f9b1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3f6173b77f0ebb1d51f9740ef0113eb9068675cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/5/45156ed5c5f68c947d9cbb11d4ca35dbe762df23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/8/484efc25285ccdb59c7781171efde774f1767f96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/56b0265d6e940e8c3c081c2fc7ca9e7d64c25ec9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/8/58484d401bf6cdd51c3aaf84c95546c98c87f1b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/9/69575371dea5f77a3e99344b7a23c331570bb2c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/9/69e6cf3749b4f5163143a8d9f1f2c98633b58015" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/9/790c7e57202ef99967fb739129015b52242bd539" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/b/7babf6d942a3f6b08729ab2ac4f6ef7929bb74a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/8786ababed89070cfc22d8fa12b8439ad51fb06f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/92020daa251e500b1f7ec74d140413560839b2a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f4d634a64a24b48c28708ad536efa9b6851748c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/1/b1b76510ee60b3bd381f421c0f2cdba0594af4ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b898efd85f7a80d48a8675bf7dbe54d4fc8ce2e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bd7c06d64a670b957c105f6cd4f77904ea233c02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c0bdfb862a01504233ed033d1876368e35b46725" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c1d5f20d551da2d24840ef176b9666d448cb3eed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c824573fec36b2fa82f26d1c30d74a8eb83f8b2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf390f6d94065c41c67a696550c774c3ea04fca6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d4beed7ca665792576364790527be874f9589441" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e4d66769b7f29e6bd2515930fe6ad9caa85ffff1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/a/eae7867906a998df96d2b5a0bc13f4809553b922" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/2/f2360a9eaac8afd62ebbd3ad4fc29cba63778838" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/3/f3aa5db0db808e4d5451306d039ad9e368eb60a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab1/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab2/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab3/ascii_art_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab3/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab3/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab4/fori.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab4/fori.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab4/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab4/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab4/processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab5/2d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab5/2d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab5/3d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab5/3d.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab5/Figures3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab5/figures_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab5/runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab6/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/files/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab7/result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/service/services.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab7/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/entity/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/files/combined_chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/files/difference-in-years-histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab8/difference-in-years-histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/files/job-bar-chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab8/job-bar-chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/files/sex-pie-chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/files/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/lab8/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/service/data_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/data_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab8/service/user_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/ColorProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/color_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/FileProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/file_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/JsonProcessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/json_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/lab2/calculator_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab2/calculator_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/lab3/ascii_art_generator_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab3/ascii_art_generator_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/lab4/data_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab4/data_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/lab5/figures_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab5/figures_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/lab7/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab7/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/lab8/diagrams_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/lab8/diagrams_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/color_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/color_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/file_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/file_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/json_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/json_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/menu/lab4/own_ascii_art_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/menu/lab4/own_ascii_art_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/menu/lab5/figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/menu/lab5/figures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/menu/lab7/user_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/menu/lab7/user_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/menu/lab8/diagrams_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/menu/lab8/diagrams_menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,22 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/fedyk_vitalii/PycharmProjects/spl/src/lab8/files&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/fedyk_vitalii/PycharmProjects/spl/src/lab8/files",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.data.views.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lab8/files" />
@@ -183,6 +86,7 @@
   <component name="RunManager" selected="Python.runner">
     <configuration name="о" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spl" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -205,6 +109,7 @@
     </configuration>
     <configuration name="ascii_art_generator_service" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spl" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -227,6 +132,7 @@
     </configuration>
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,6 +156,7 @@
     </configuration>
     <configuration name="diagrams_menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spl" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -272,6 +179,7 @@
     </configuration>
     <configuration name="jkjnj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spl" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -294,6 +202,7 @@
     </configuration>
     <configuration name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spl" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -331,6 +240,13 @@
         <item itemvalue="Python.о" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -407,6 +323,11 @@
       <workItem from="1700662003014" duration="26474000" />
       <workItem from="1701287565727" duration="25827000" />
       <workItem from="1701336289441" duration="3028000" />
+      <workItem from="1701602875806" duration="46000" />
+      <workItem from="1694675223836" duration="628000" />
+      <workItem from="1694676227064" duration="412000" />
+      <workItem from="1701891323361" duration="4414000" />
+      <workItem from="1701895787905" duration="6921000" />
     </task>
     <servers />
   </component>

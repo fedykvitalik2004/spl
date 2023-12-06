@@ -82,7 +82,7 @@ class TxtProcessor(DataProcessor):
                 else:
                     raise ValueError("Data information has incorrect format")
             elif line == "@data":
-                if not self.__meta_data.__contains__("height"):
+                if "height" not in self.__meta_data:
                     raise ValueError("The file has to contain meta information such as height")
                 is_data_annotation_found = True
             elif not is_data_annotation_found:
@@ -140,15 +140,15 @@ class TxtProcessor(DataProcessor):
             all_needed_symbols.update({i: reduce((lambda x, y: x + "\n" + y), representation)})
 
         symbol_count = 0
-        for i in properties.keys():
-            for j in range(0, properties[i]):
+        for i in properties:
+            for _ in range(0, properties[i]):
                 representation = all_needed_symbols[symbol_count].split("\n")
                 symbol_count += 1
                 for k in range(0, len(representation)):
-                    if result.__contains__(k + i * 6):
+                    if k + i * 6 in result:
                         result[k + i * 6] += representation[k]
                     else:
                         result[k + i * 6] = representation[k]
 
-        return (Fore.__getattribute__(colors[color_position]) +
+        return (getattr(Fore, colors[color_position]) +
                 reduce(lambda x, y: x + "\n" + y, result.values()))

@@ -1,6 +1,12 @@
+"""
+Module: own_ascii_art_generator
+
+This module contains the OwnAsciiArtGeneratorMenu class, which is a menu for
+an ASCII art generator program.
+"""
 from src.config import ASCII_ART_GENERATOR_OUTPUT, OWN_ASCII_ART_GENERATOR_OUTPUT_FONT
 from src.service.lab4.data_processors import TxtProcessor
-from src.shared.color_processor import display_colors
+from src.shared.color_processor import ColorProcessor
 from src.shared.file_processors import FileProcessor
 
 
@@ -11,7 +17,7 @@ class OwnAsciiArtGeneratorMenu:
         """Run the Own ASCII Art Generator program."""
         try:
             initial_text = str(input("Enter text in order to display: "))
-            display_colors()
+            ColorProcessor.display_colors()
             color_position = int(input("Enter position of color you would like to use: "))
             width = int(input("Enter width of text you would like to display: "))
             txt_processor = TxtProcessor(OWN_ASCII_ART_GENERATOR_OUTPUT_FONT)

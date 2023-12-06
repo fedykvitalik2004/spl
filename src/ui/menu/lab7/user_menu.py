@@ -1,16 +1,32 @@
-import sys
+"""
+Module: UserMenu
 
-import src.shared.json_processor as json_processor
+This module defines a menu class for interacting with user data. It includes options to display
+personal profile data, display profiles posts, save data in JSON format, show history, and exit.
+
+Classes:
+- UserMenu: A menu class for interacting with user data.
+
+Usage:
+- Instantiate the UserMenu class and call the run method to start the user data interaction program.
+
+Example:
+```python
+menu = UserMenu()
+menu.run()
+"""
 import json
 
 from src.config import JSON_FILE_PATH
 from src.service.lab7.user_service import DisplayInTableService, UserService
-from src.shared import color_processor
+from src.shared import json_processor
+from src.shared.color_processor import ColorProcessor
 from src.shared.file_processors import FileProcessor
 
 
 class UserMenu:
     """A menu class for interacting with user data."""
+
     @staticmethod
     def run():
         """Run the user data interaction program."""
@@ -41,7 +57,7 @@ class UserMenu:
                             option = input("Your choice: ")
                             match option:
                                 case "1":
-                                    color_processor.display_colors()
+                                    ColorProcessor.display_colors()
                                     color_position = int(input("Enter a color position: "))
                                     json_processor.display_flattened_json(jsons, color_position)
                                     break
@@ -75,7 +91,7 @@ class UserMenu:
                             option = input("Your choice: ")
                             match option:
                                 case "1":
-                                    color_processor.display_colors()
+                                    ColorProcessor.display_colors()
                                     color_position = int(input("Enter a color position: "))
                                     json_processor.display_flattened_json(jsons, color_position)
                                     break

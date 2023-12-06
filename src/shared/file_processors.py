@@ -59,7 +59,7 @@ class FileProcessor:
         :raises OSError: If the file is not a file.
         :raises JSONDecodeError: If the file is not a valid JSON file.
         """
-        with open(file_path, "r") as file:
+        with open(file_path, "r", encoding="utf-8") as file:
             return json.load(file)
 
     @staticmethod
@@ -77,7 +77,7 @@ class FileProcessor:
         jsons_text_representation = json.dumps(jsons, indent=4)
         json.loads(jsons_text_representation)
 
-        with open(file_path, "w") as file:
+        with open(file_path, "w", encoding="utf-8") as file:
             file.write(jsons_text_representation)
 
 

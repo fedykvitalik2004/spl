@@ -28,7 +28,7 @@ import pyfiglet
 from colorama import Fore
 
 from src.config import ASCII_ART_GENERATOR
-from src.shared.color_processor import colors, display_fonts, display_colors, fonts
+from src.shared.color_processor import colors, fonts, FontProcessor, ColorProcessor
 from src.shared.file_processors import FileProcessor
 
 
@@ -53,7 +53,8 @@ class AsciiArtGeneratorService:
         """
         self.__file_processor = FileProcessor()
 
-    def __get_text(self, text, font, color_position, width) -> str:
+    @staticmethod
+    def __get_text(text, font, color_position, width) -> str:
         """
         Generates formatted ASCII art text.
 
@@ -69,7 +70,7 @@ class AsciiArtGeneratorService:
         fig = pyfiglet.Figlet(font)
         fig.width = width
         formatted_text = fig.renderText(text)
-        return Fore.__getattribute__(colors[color_position]) + formatted_text
+        return getattr(Fore, colors[color_position]) + formatted_text
 
     def display_text(self):
         """
@@ -87,9 +88,9 @@ class AsciiArtGeneratorService:
                 if not initial_text.isascii():
                     print("Text must contain only ASCII characters")
                     continue
-                display_fonts()
+                FontProcessor.display_fonts()
                 font_position = int(input("Enter position of font you would like to use: "))
-                display_colors()
+                ColorProcessor.display_colors()
                 color_position = int(input("Enter position of color you would like to use: "))
                 width = int(input("Enter width of text you "
                                   "would like to display: "))
@@ -98,11 +99,11 @@ class AsciiArtGeneratorService:
                 print(modified_text)
                 self.__file_processor.write_into_file(ASCII_ART_GENERATOR, modified_text)
 
-                if input(
-                        "Would you like to continue? Enter 'Y' or 'y' if you do, or "
-                        "anything else if you don't. Your response is ").lower() == "y":
-                    continue
-                else:
+                while True:
+                    if input(
+                            "Would you like to continue? Enter 'Y' or 'y' if you do, or "
+                            "anything else if you don't. Your response is ").lower() == "y":
+                        continue
                     break
             except ValueError:
                 print("Cannot be parsed into an int value")

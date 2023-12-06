@@ -150,8 +150,9 @@ class DiagramServiceImpl(DiagramService):
         sex = self.get_sex()
         sex_counter = Counter(sex)
 
-        plt.pie([sex_counter[key] for key in sex_counter], labels=[key for key in sex_counter],
-                startangle=90, colors=['blue', 'pink'])
+        plt.pie(list(sex_counter.values()), labels=list(sex_counter), startangle=90,
+                colors=['blue', 'pink'])
+
         if has_to_be_downloaded:
             plt.savefig(SEX_PIE_CHART_PHOTO)
 
@@ -172,9 +173,7 @@ class DiagramServiceImpl(DiagramService):
         job_title_counter = Counter(job_title)
 
         plt.figure(figsize=(11, 16))
-        plt.bar([key for key in job_title_counter], [job_title_counter[key]
-                                                     for key in job_title_counter],
-                color='green')
+        plt.bar(list(job_title_counter), list(job_title_counter.values()), color='green')
 
         if has_to_be_downloaded:
             plt.savefig(JOB_BAR_CHART_PHOTO)
@@ -205,9 +204,8 @@ class DiagramServiceImpl(DiagramService):
         _, (ax1, ax2) = plt.subplots(2, 1, figsize=(11, 16))
 
         # First subplot (bar chart)
-        ax1.bar([key for key in job_title_counter], [job_title_counter[key]
-                                                     for key in job_title_counter],
-                color='green')
+        ax1.bar(list(job_title_counter), list(job_title_counter.values()), color='green')
+
         ax1.set_title('Job Frequency')
         ax1.set_xlabel('Job')
         ax1.set_ylabel('Frequency')

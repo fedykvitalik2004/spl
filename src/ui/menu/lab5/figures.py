@@ -8,7 +8,7 @@ Classes:
 """
 from src.config import FIGURE_2D, FIGURE_3D
 from src.service.lab5.figures_service import Figure3D, Cube
-from src.shared.color_processor import display_colors, colors
+from src.shared.color_processor import colors, ColorProcessor
 from src.shared.file_processors import FileProcessor
 
 
@@ -73,7 +73,7 @@ class FigureMenu:
         """Create a cube based on user input."""
         character = self.__get_character_input()
         print("There are such colors available:")
-        display_colors()
+        ColorProcessor.display_colors()
         color_position = self.__get_color_position_input()
         length = self.__get_length_input()
         try:
@@ -85,9 +85,10 @@ class FigureMenu:
 
     def __display_2d(self):
         """Display the 2D representation of the figure."""
-        if self.is_figure_available is True:
+        if self.is_figure_available:
             representation_2d = self.figure.get_2d_representation()
-            [print(item) for item in representation_2d]
+            for item in representation_2d:
+                print(item)
             self.is_2d_representation_available = True
         else:
             print("There is no figure available!")

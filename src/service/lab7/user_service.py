@@ -92,8 +92,8 @@ class UserService:
         """
         if linkedin_url is None or not isinstance(linkedin_url, str):
             raise ValueError("URL has to be a string and nonempty!")
-        elif regex.match("^((http|https)://)[-a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b(["
-                         "-a-zA-Z0-9@:%._\\+~#?&//=]*)$", linkedin_url) is None:
+        if regex.match("^((http|https)://)[-a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z]{2,6}\\b(["
+                       "-a-zA-Z0-9@:%._\\+~#?&//=]*)$", linkedin_url) is None:
             raise ValueError("URL doesn't match the pattern!")
 
         querystring = {"linkedin_url": linkedin_url, "type": "posts"}
@@ -103,13 +103,13 @@ class UserService:
             "X-RapidAPI-Host": config.X_RAPID_API_HOST
         }
         response = requests.get(config.GET_PROFILES_PHOTO, headers=headers, params=querystring)
+
         if response.status_code != 200:
             message: str = response.json()['message']
             logger.info("The status of the response is not 200, it is %s", message)
-
             raise ValueError(f"Error occurred! {message}")
-        else:
-            return response.json()
+
+        return response.json()
 
 
 class DisplayInTableService:

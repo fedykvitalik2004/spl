@@ -23,21 +23,33 @@ colors = dict(enumerate(sorted(Fore.__dict__.keys())))
 fonts = dict(enumerate(sorted(pyfiglet.FigletFont.getFonts())))
 
 
-def display_colors() -> None:
+class ColorProcessor:
     """
-    Displays available color options.
-
-    Prints a numbered list of color options available in the `colors` dictionary.
+    Color Processor Class
     """
-    for i in colors:
-        print(str(i) + ". " + colors[i])
+
+    @staticmethod
+    def display_colors() -> None:
+        """
+        Displays available color options.
+
+        Prints a numbered list of color options available in the `colors` dictionary.
+        """
+        for i in colors:
+            print(str(i) + ". " + colors[i])
 
 
-def display_fonts() -> None:
+class FontProcessor:
     """
-    Displays available font options.
-
-    Prints a numbered list of font options available in the `fonts` dictionary.
+    Font Processor Class
     """
-    for i in fonts:
-        print(str(i) + ". " + fonts[i])
+
+    @staticmethod
+    def display_fonts() -> None:
+        """
+        Displays available font options.
+
+        Prints a numbered list of font options available in the `fonts` dictionary.
+        """
+        for i in fonts:
+            print(str(i) + ". " + fonts[i])

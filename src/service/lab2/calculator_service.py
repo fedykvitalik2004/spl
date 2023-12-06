@@ -82,7 +82,6 @@ class CalculatorService:
         - RuntimeWarning: If the input operator is incorrect.
         """
         try:
-            self.__init__()
             self.__first_value = float(input("Enter the first value: "))
             self.__operator = str(input("Enter the operator ['+', '-', '*', '/', '**', '√', "
                                         "'%']: "))
@@ -119,25 +118,29 @@ class CalculatorService:
         Returns:
         - float: The result of the arithmetic operation.
         """
+        result = 0  # Initialize result to handle the "%"
+
         if self.__operator == "+":
-            return self.__first_value + self.__second_value
+            result = self.__first_value + self.__second_value
         elif self.__operator == "-":
-            return self.__first_value - self.__second_value
+            result = self.__first_value - self.__second_value
         elif self.__operator == "*":
-            return self.__first_value * self.__second_value
+            result = self.__first_value * self.__second_value
         elif self.__operator == "/":
             if self.__second_value == 0:
                 raise ZeroDivisionError("Impossible to divide")
-            return self.__first_value / self.__second_value
+            result = self.__first_value / self.__second_value
         elif self.__operator == "**":
-            return self.__first_value ** self.__second_value
+            result = self.__first_value ** self.__second_value
         elif self.__operator == "√":
             if self.__first_value < 0:
                 raise ArithmeticError("Number is negative, therefore it is impossible "
                                       "to calculate the square root")
-            return math.sqrt(self.__first_value)
+            result = math.sqrt(self.__first_value)
         elif self.__operator == "%":
-            return self.__first_value % self.__second_value
+            result = self.__first_value % self.__second_value
+
+        return result
 
     def __str__(self):
         """

@@ -83,8 +83,8 @@ class DiagramMenu:
         Returns:
             None
         """
-        has_to_be_downloaded = True if input(
-            "Do you want to download the diagram? Enter 'y' "
-            "or anything else not to download: "
-        ) == "y" else False
+        has_to_be_downloaded = input(
+            "Do you want to download the diagram? Enter 'y' or "
+            "anything else not to download: ") == "y"
+
         diagram_function(has_to_be_downloaded)
