@@ -54,3 +54,5 @@ L
 src/shared/json_processor.py,4/4/4483af1bb2d81526de345a8fa26f8adf88db2f39
 9
 	docs.html,3/e/3e66f13f846b24b2ae00120eca81fe78093ef3fb
+D
+reports/СМП_7.pdf,4/f/4fb618f26a181e7b42fb388755bbf9a98bc12852
