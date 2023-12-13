@@ -10,7 +10,7 @@ Attributes:
 - __second_value (float): The second operand for the arithmetic operation.
 
 Methods:
-- __init__(self): Initializes a CalculatorService object with default values.
+- __init__.py(self): Initializes a CalculatorService object with default values.
 - input_values(self): Takes input for the first value, operator, and second
 value from the user.
 - __is_operator_correct(self, operator): Checks if the provided operator is a
@@ -45,7 +45,7 @@ class CalculatorService:
     - __second_value (float): The second operand for the arithmetic operation.
 
     Methods:
-    - __init__(self): Initializes a CalculatorService object with default values.
+    - __init__.py(self): Initializes a CalculatorService object with default values.
     - input_values(self): Takes input for the first value, operator, and second value from the user.
     - __is_operator_correct(self, operator): Checks if the provided operator
     is a valid arithmetic operator.

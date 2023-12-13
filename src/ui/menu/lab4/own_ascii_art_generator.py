@@ -4,13 +4,14 @@ Module: own_ascii_art_generator
 This module contains the OwnAsciiArtGeneratorMenu class, which is a menu for
 an ASCII art generator program.
 """
-from src.config import ASCII_ART_GENERATOR_OUTPUT, OWN_ASCII_ART_GENERATOR_OUTPUT_FONT
-from src.service.lab4.data_processors import TxtProcessor
-from src.shared.color_processor import ColorProcessor
-from src.shared.file_processors import FileProcessor
+from config.paths_config import ASCII_ART_GENERATOR_OUTPUT, OWN_ASCII_ART_GENERATOR_OUTPUT_FONT
+from service.lab4.data_processors import TxtProcessor
+from shared.color_processor import ColorProcessor
+from shared.file_processors import FileProcessor
+from ui.menu_builder import Menu
 
 
-class OwnAsciiArtGeneratorMenu:
+class OwnAsciiArtGeneratorMenu(Menu):
     """Menu class for Own ASCII Art Generator."""
 
     def run(self):

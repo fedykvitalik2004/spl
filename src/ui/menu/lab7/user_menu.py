@@ -17,18 +17,18 @@ menu.run()
 """
 import json
 
-from src.config import JSON_FILE_PATH
-from src.service.lab7.user_service import DisplayInTableService, UserService
-from src.shared import json_processor
-from src.shared.color_processor import ColorProcessor
-from src.shared.file_processors import FileProcessor
+from config.paths_config import JSON_FILE_PATH
+from service.lab7.user_service import DisplayInTableService, UserService
+from shared.color_processor import ColorProcessor
+from shared.file_processors import FileProcessor
+from shared.json_processor import JSONProcessor
+from ui.menu_builder import Menu
 
 
-class UserMenu:
+class UserMenu(Menu):
     """A menu class for interacting with user data."""
 
-    @staticmethod
-    def run():
+    def run(self):
         """Run the user data interaction program."""
         history: list = []
         successful_result: bool = False
@@ -59,7 +59,7 @@ class UserMenu:
                                 case "1":
                                     ColorProcessor.display_colors()
                                     color_position = int(input("Enter a color position: "))
-                                    json_processor.display_flattened_json(jsons, color_position)
+                                    JSONProcessor.display_flattened_json(jsons, color_position)
                                     break
                                 case "2":
                                     print(json.dumps(jsons, indent=4))
@@ -93,7 +93,7 @@ class UserMenu:
                                 case "1":
                                     ColorProcessor.display_colors()
                                     color_position = int(input("Enter a color position: "))
-                                    json_processor.display_flattened_json(jsons, color_position)
+                                    JSONProcessor.display_flattened_json(jsons, color_position)
                                     break
                                 case "2":
                                     print(json.dumps(jsons, indent=4))

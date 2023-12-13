@@ -6,25 +6,27 @@ A module for handling 3D figures and their representations.
 Classes:
 - FigureMenu: A menu class for managing 3D figures and their representations.
 """
-from src.config import FIGURE_2D, FIGURE_3D
-from src.service.lab5.figures_service import Figure3D, Cube
-from src.shared.color_processor import colors, ColorProcessor
-from src.shared.file_processors import FileProcessor
+from config.paths_config import FIGURE_2D, FIGURE_3D
+from service.lab5.figures_service import Figure3D, Cube
+from shared.color_processor import colors, ColorProcessor
+from shared.file_processors import FileProcessor
+from ui.menu_builder import Menu
 
 
-class FigureMenu:
+class FigureMenu(Menu):
     """A menu class for managing 3D figures and their representations."""
 
     def __init__(self):
         """Initialize the FigureMenu."""
-        self.is_figure_available = False
-        self.is_2d_representation_available = False
-        self.is_3d_representation_available = False
-        self.figure = None
-        self.representation_2d_file = FIGURE_2D
-        self.representation_3d_file = FIGURE_3D
+        self.__is_figure_available = False
+        self.__is_2d_representation_available = False
+        self.__is_3d_representation_available = False
+        self.__figure = None
+        self.__representation_2d_file = FIGURE_2D
+        self.__representation_3d_file = FIGURE_3D
 
-    def __get_character_input(self):
+    @staticmethod
+    def __get_character_input():
         """Get a character input for representing the shape."""
         while True:
             character = input("Enter a character to represent in the shape: ")
@@ -33,7 +35,8 @@ class FigureMenu:
             else:
                 return character
 
-    def __get_color_position_input(self):
+    @staticmethod
+    def __get_color_position_input():
         """Get a color input for representing the shape."""
         while True:
             try:
@@ -45,7 +48,8 @@ class FigureMenu:
             except ValueError:
                 print("You should have entered an integer number!")
 
-    def __get_length_input(self):
+    @staticmethod
+    def __get_length_input():
         """Get a length input for creating a cube."""
         while True:
             try:
@@ -57,7 +61,8 @@ class FigureMenu:
             except ValueError:
                 print("You should have entered an integer number!")
 
-    def __get_scale_input(self):
+    @staticmethod
+    def __get_scale_input():
         """Get a scale input for displaying 3D representations."""
         while True:
             try:
@@ -77,37 +82,37 @@ class FigureMenu:
         color_position = self.__get_color_position_input()
         length = self.__get_length_input()
         try:
-            self.figure = Cube(length, character, color_position)
-            self.is_figure_available = True
+            self.__figure = Cube(length, character, color_position)
+            self.__is_figure_available = True
         except ValueError as e:
             print(e)
-            self.is_figure_available = False
+            self.__is_figure_available = False
 
     def __display_2d(self):
         """Display the 2D representation of the figure."""
-        if self.is_figure_available:
-            representation_2d = self.figure.get_2d_representation()
+        if self.__is_figure_available is True:
+            representation_2d = self.__figure.get_2d_representation()
             for item in representation_2d:
                 print(item)
-            self.is_2d_representation_available = True
+            self.__is_2d_representation_available = True
         else:
             print("There is no figure available!")
 
     def __display_3d(self):
         """Display the 3D representation of the figure."""
-        if self.is_figure_available is True:
-            representation_3d = self.figure.get_3d_representation(scale=self.__get_scale_input())
+        if self.__is_figure_available is True:
+            representation_3d = self.__figure.get_3d_representation(scale=self.__get_scale_input())
             print(representation_3d)
-            self.is_3d_representation_available = True
+            self.__is_3d_representation_available = True
         else:
             print("There is no figure available!")
 
     def __save_2d_representation(self):
         """Save the 2D representation of the figure to a file."""
-        if self.is_2d_representation_available is True:
+        if self.__is_2d_representation_available is True:
             try:
-                FileProcessor.write_into_file(self.representation_2d_file, ""
-                                              .join(self.figure.get_2d_representation()))
+                FileProcessor.write_into_file(self.__representation_2d_file, ""
+                                              .join(self.__figure.get_2d_representation()))
             except PermissionError:
                 print("You do not have permission to write to the file!")
             except FileNotFoundError:
@@ -117,11 +122,11 @@ class FigureMenu:
 
     def __save_3d_representation(self):
         """Save the 3D representation of the figure to a file."""
-        if self.is_3d_representation_available is True:
+        if self.__is_3d_representation_available is True:
             try:
                 FileProcessor.write_into_file(
-                    self.representation_3d_file,
-                    self.figure.get_3d_representation(scale=self.__get_scale_input()))
+                    self.__representation_3d_file,
+                    self.__figure.get_3d_representation(scale=self.__get_scale_input()))
             except PermissionError:
                 print("You do not have permission to write to the file!")
             except FileNotFoundError:

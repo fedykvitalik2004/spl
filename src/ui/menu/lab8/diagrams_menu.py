@@ -22,12 +22,12 @@ Note: Ensure the required libraries (`sys`) are
 installed before using this module.
 """
 
-import sys
-from src.config import USERS_DATA
-from src.service.lab8.diagrams_service import DiagramServiceImpl
+from config.paths_config import USERS_DATA
+from service.lab8.diagrams_service import DiagramServiceImpl
+from ui.menu_builder import Menu
 
 
-class DiagramMenu:
+class DiagramMenu(Menu):
     """
     Class representing a menu for displaying diagrams.
 
@@ -67,7 +67,7 @@ class DiagramMenu:
                 case "4":
                     self.display_diagram(service.create_combined_diagram)
                 case "0":
-                    sys.exit(0)
+                    break
                 case _:
                     print("Invalid choice. Enter again!")
 

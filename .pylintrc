@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+disable=E0401, R0903
+
+ignore-paths=^src/docs/.*$,
+                ^src/$,

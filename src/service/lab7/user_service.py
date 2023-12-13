@@ -29,8 +29,9 @@ import json
 import requests
 from prettytable import PrettyTable
 import regex
-from src import config
-from src.config import logger
+
+from config import urls_config, credentials_config
+from config.logger_config import logger
 
 
 class UserService:
@@ -65,10 +66,11 @@ class UserService:
         querystring = {"linkedin_url": linkedin_url, "include_skills": "false"}
 
         headers = {
-            "X-RapidAPI-Key": config.X_RAPID_API_KEY,
-            "X-RapidAPI-Host": config.X_RAPID_API_HOST
+            "X-RapidAPI-Key": credentials_config.X_RAPID_API_KEY,
+            "X-RapidAPI-Host": credentials_config.X_RAPID_API_HOST
         }
-        response = requests.get(config.GET_PERSONAL_PROFILE, headers=headers, params=querystring)
+        response = requests.get(urls_config.GET_PERSONAL_PROFILE,
+                                headers=headers, params=querystring, timeout=15)
         if response.status_code != 200:
             message: str = response.json()['message']
             logger.error("The status of the response is not 200, it is %s", message)
@@ -99,10 +101,11 @@ class UserService:
         querystring = {"linkedin_url": linkedin_url, "type": "posts"}
 
         headers = {
-            "X-RapidAPI-Key": config.X_RAPID_API_KEY,
-            "X-RapidAPI-Host": config.X_RAPID_API_HOST
+            "X-RapidAPI-Key": credentials_config.X_RAPID_API_KEY,
+            "X-RapidAPI-Host": credentials_config.X_RAPID_API_HOST
         }
-        response = requests.get(config.GET_PROFILES_PHOTO, headers=headers, params=querystring)
+        response = requests.get(urls_config.GET_PROFILES_PHOTO, headers=headers,
+                                params=querystring, timeout=15)
 
         if response.status_code != 200:
             message: str = response.json()['message']

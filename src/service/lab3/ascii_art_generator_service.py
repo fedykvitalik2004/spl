@@ -27,9 +27,10 @@ You can install them using: `pip install requests prettytable regex`
 import pyfiglet
 from colorama import Fore
 
-from src.config import ASCII_ART_GENERATOR
-from src.shared.color_processor import colors, fonts, FontProcessor, ColorProcessor
-from src.shared.file_processors import FileProcessor
+
+from config.paths_config import ASCII_ART_GENERATOR
+from shared.color_processor import colors, fonts, FontProcessor, ColorProcessor
+from shared.file_processors import FileProcessor
 
 
 class AsciiArtGeneratorService:
@@ -40,7 +41,7 @@ class AsciiArtGeneratorService:
     - __file_processor (FileProcessor): An instance of FileProcessor for file processing.
 
     Methods:
-    - __init__(self): Initializes an AsciiArtGeneratorService object.
+    - __init__.py(self): Initializes an AsciiArtGeneratorService object.
     - __get_text(self, text, font, color_position, width) -> str: Generates
     formatted ASCII art text.
     - display_text(self): Takes user input to generate and display ASCII art,
@@ -99,11 +100,9 @@ class AsciiArtGeneratorService:
                 print(modified_text)
                 self.__file_processor.write_into_file(ASCII_ART_GENERATOR, modified_text)
 
-                while True:
-                    if input(
-                            "Would you like to continue? Enter 'Y' or 'y' if you do, or "
-                            "anything else if you don't. Your response is ").lower() == "y":
-                        continue
+                if input(
+                        "Would you like to continue? Enter 'Y' or 'y' if you do, or "
+                        "anything else if you don't. Your response is ").lower() != "y":
                     break
             except ValueError:
                 print("Cannot be parsed into an int value")

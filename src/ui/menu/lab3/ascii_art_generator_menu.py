@@ -11,11 +11,13 @@ Example:
 ascii_art_menu = AsciiArtGeneratorMenu()
 ascii_art_menu.run()
 """
-from src.service.lab3.ascii_art_generator_service import AsciiArtGeneratorService
+from service.lab3.ascii_art_generator_service import AsciiArtGeneratorService
+from ui.menu_builder import Menu
 
 
-class AsciiArtGeneratorMenu:
+class AsciiArtGeneratorMenu(Menu):
     """A simple menu for an ASCII art generator."""
+
     def run(self):
         """Run the ASCII art generator program."""
         ascii_art_generator_service = AsciiArtGeneratorService()

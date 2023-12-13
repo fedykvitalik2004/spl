@@ -9,7 +9,7 @@ This module provides a service for working with 3D figures. It includes two clas
     - `_color_position (int)`: The position of the color to be
     applied to the figure.
   - Methods:
-    - `__init__(self, character: str, color_position: int)`:
+    - `__init__.py(self, character: str, color_position: int)`:
     Initializes a Figure3D object.
     - `get_2d_representation(self) -> list`: Abstract method
     to get the 2D representation of the figure.
@@ -22,7 +22,7 @@ This module provides a service for working with 3D figures. It includes two clas
   - Attributes:
     - `__length (int)`: The length of the cube.
   - Methods:
-    - `__init__(self, length: int, character: str, color_position: int)`:
+    - `__init__.py(self, length: int, character: str, color_position: int)`:
     Initializes a Cube object.
     - `get_2d_representation(self) -> list`: Gets the 2D representation
     of the cube.
@@ -42,7 +42,7 @@ from abc import ABC, abstractmethod
 
 from colorama import Fore
 
-from src.shared.color_processor import colors
+from shared.color_processor import colors
 
 
 class Figure3D(ABC):
@@ -54,7 +54,7 @@ class Figure3D(ABC):
     - _color_position (int): The position of the color to be applied to the figure.
 
     Methods:
-    - __init__(self, character: str, color_position: int): Initializes
+    - __init__.py(self, character: str, color_position: int): Initializes
     a Figure3D object.
     - get_2d_representation(self) -> list: Abstract method to get the 2D
     representation of the figure.
@@ -122,7 +122,8 @@ class Cube(Figure3D):
     - __offset (int): The offset for cube representation.
 
     Methods:
-    - __init__(self, length: int, character: str, color_position: int): Initializes a Cube object.
+    - __init__.py(self, length: int, character: str, color_position: int):
+    Initializes a Cube object.
     - get_2d_representation(self) -> list: Gets the 2D representation of the cube.
     - get_3d_representation(self, scale: float = 1.0) -> str:
      Gets the 3D representation of the cube.

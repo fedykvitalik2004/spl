@@ -1,8 +1,9 @@
 """Module for implementing a simple calculator menu."""
-from src.service.lab2.calculator_service import CalculatorService
+from service.lab2.calculator_service import CalculatorService
+from ui.menu_builder import Menu
 
 
-class CalculatorMenu:
+class CalculatorMenu(Menu):
     """A simple calculator menu class."""
 
     def run(self):
@@ -25,7 +26,8 @@ class CalculatorMenu:
             except ValueError as ve:
                 print(f"Invalid input: {ve}")
 
-    def display_menu(self):
+    @staticmethod
+    def display_menu():
         """Display the calculator menu."""
         print("1. Perform calculation")
         print("2. Exit")

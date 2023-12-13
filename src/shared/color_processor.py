@@ -18,6 +18,8 @@ import colorama
 import pyfiglet
 from colorama import Fore
 
+from config.logger_config import logger
+
 colorama.init(autoreset=True)
 colors = dict(enumerate(sorted(Fore.__dict__.keys())))
 fonts = dict(enumerate(sorted(pyfiglet.FigletFont.getFonts())))
@@ -35,6 +37,7 @@ class ColorProcessor:
 
         Prints a numbered list of color options available in the `colors` dictionary.
         """
+        logger.info("Displaying all colors")
         for i in colors:
             print(str(i) + ". " + colors[i])
 
@@ -51,5 +54,6 @@ class FontProcessor:
 
         Prints a numbered list of font options available in the `fonts` dictionary.
         """
+        logger.info("Displaying all fonts")
         for i in fonts:
             print(str(i) + ". " + fonts[i])

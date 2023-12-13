@@ -6,7 +6,7 @@ from functools import reduce
 
 from colorama import Fore
 
-from src.shared.color_processor import colors
+from shared.color_processor import colors
 
 
 class DataProcessor(ABC):

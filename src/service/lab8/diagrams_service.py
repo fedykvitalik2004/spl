@@ -28,11 +28,12 @@ diagram_service.create_combined_diagram()
 from collections import Counter
 import abc
 from matplotlib import pyplot as plt
-from src.config import (DIFFERENCE_IN_YEARS_HISTOGRAM, SEX_PIE_CHART_PHOTO,
-                        JOB_BAR_CHART_PHOTO, COMBINED_DIAGRAM_PHOTO, logger)
-from src.entity.user import User
-from src.shared.data_processor import DateProcessor
-from src.shared.file_processors import CsvProcessor as csv_processor
+from config.paths_config import (DIFFERENCE_IN_YEARS_HISTOGRAM, SEX_PIE_CHART_PHOTO,
+                                 JOB_BAR_CHART_PHOTO, COMBINED_DIAGRAM_PHOTO)
+from  config.logger_config import logger
+from entity.user import User
+from shared.data_processor import DateProcessor
+from shared.file_processors import CsvProcessor as csv_processor
 
 
 class DiagramService(abc.ABC):
@@ -43,7 +44,7 @@ class DiagramService(abc.ABC):
         _users (list): List to store User objects.
 
     Methods:
-        __init__: Initializes the DiagramService object.
+        __init__.py: Initializes the DiagramService object.
 
     Subclasses must implement their own methods for data retrieval and diagram creation.
     """
@@ -56,7 +57,7 @@ class DiagramService(abc.ABC):
             _users (list): List to store User objects.
 
         Methods:
-            __init__: Initializes the DiagramService object.
+            __init__.py: Initializes the DiagramService object.
 
         Subclasses must implement their own methods for data retrieval and diagram creation.
         """
@@ -71,7 +72,7 @@ class DiagramServiceImpl(DiagramService):
         _users (list): List to store User objects.
 
     Methods:
-        __init__: Initializes the DiagramServiceImpl object with user data.
+        __init__.py: Initializes the DiagramServiceImpl object with user data.
         get_difference_in_years: Retrieves the age difference for each user.
         get_sex: Retrieves the sex of each user.
         get_job_title: Retrieves the job title of each user.
