@@ -121,11 +121,17 @@ K
 docs/_build/html/.buildinfo,7/0/70fbe78b353784344eecc5c0618448fd2973b445
 G
 config/logger_config.py,c/9/c90ce79bb88673c5222fd6a78842b51109308001
->
-source/conf.py,8/a/8a0a6aaf5ebc66bef84d384a3fb34ae8b6760909
-@
-source/index.rst,c/b/cb6d6bd9365c2f583a510a39cf8cbc4bc5a77d82
 E
 config/urls_config.py,9/8/982486dbfe286e48e9c43d8166d9f6e0997ec4c7
 L
 config/credentials_config.py,c/4/c48d6cecb775ae4cbc5b6f2401f0d919561addbd
+E
+docs/service.lab2.rst,4/8/484b75a29b39619ecb33ce0304e6a4af8481f30d
+F
+config/paths_config.py,f/c/fc9cc852e28968d2ed85b737a29f0a755a2abca6
+?
+docs/entity.rst,8/1/81c4a0ebc9f76cad2c1af62ca5453613dd90fd89
+?
+docs/runner.rst,c/c/cca4a4523a39796fddd95977b8b5446390913b4e
+;
+docs/ui.rst,a/1/a1fc9479417aa8f5feb17f17708535ad18da87f1

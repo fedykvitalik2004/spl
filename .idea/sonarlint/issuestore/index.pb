@@ -126,8 +126,6 @@ B
 src/docs/index.rst,1/3/13f3a2f714e244d7b318a09fd164019a901ac516
 V
 &src/docs/_build/html/ui.menu.lab5.html,c/d/cd8d0c0c4fea5fd981f271f8402f387f48a5cfc1
-B
-src/source/conf.py,3/6/362e9588b1fcafa75e304819dc430489af9708ed
 P
  src/config/credentials_config.py,4/3/432d3d062c90ba689f66297c559accf0e474106a
 L
@@ -142,7 +140,7 @@ H
 src/ui/menu/docs_menu.py,d/8/d8fe6ced25d554c6b2f073700d2f2902b3f02bec
 J
 src/config/paths_config.py,7/3/7308febff40a39be0e2b22c0570466c6fedfa83e
-D
-src/source/index.rst,7/1/71a574ed912cefdaefc7521ea5d4a79e99801b2f
 J
 src/ui/menu/menu_facade.py,1/6/1665df2ae37f9531a43e6b7481098836a16efa1c
+D
+reports/СМП_9.pdf,a/f/af65e81bc5c9d10bb3e976c67401ba837c9f37f5
